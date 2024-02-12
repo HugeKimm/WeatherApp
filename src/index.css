@@ -1,0 +1,91 @@
+/* App.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('./assets/m2.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 100%;
+}
+
+.search input {
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.location p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.temp h1 {
+  font-size: 72px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.description p {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.bottom .feels,
+.bottom .humidity,
+.bottom .wind {
+  flex-basis: 30%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Couleurs pour les différentes parties de l'application (personnalisez-les selon vos préférences) */
+.temp {
+  color: #f76c6c; /* Couleur de la température */
+}
+
+.description {
+  color: #4aa0e6; /* Couleur de la description météo */
+}
+
+.feels {
+  color: #4e85e5; /* Couleur pour "Feels Like" */
+}
+
+.humidity {
+  color: #46b19c; /* Couleur pour l'humidité */
+}
+
+.wind {
+  color: #f7b83e; /* Couleur pour la vitesse du vent */
+}
